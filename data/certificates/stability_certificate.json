@@ -1,0 +1,69 @@
+{
+  "run_id": "pipeline_2025",
+  "timestamp": "2025-12-04T11:14:26.647298",
+  "numpy_version": "2.3.5",
+  "parameters": {
+    "dim": 12,
+    "n_sectors": 3,
+    "rho_range": [
+      0.0,
+      1.0
+    ],
+    "n_rho_points": 200
+  },
+  "sep_test": {
+    "passed": true,
+    "min_inter_sector_gap": 2.999583104452353,
+    "n_crossings": 0
+  },
+  "potential_test": {
+    "n_minima": 3,
+    "minima_locations": [
+      0.1499560037124678,
+      0.49985958520524987,
+      0.8499737491819515
+    ],
+    "n_maxima": 2,
+    "maxima_locations": [
+      0.29804816596766665,
+      0.7021624997260777
+    ],
+    "is_triple_well": true
+  },
+  "kato_test": {
+    "a": 0.012601051991011322,
+    "b": 0.02852311098703977,
+    "min_gap": 0.008658379847809483,
+    "stability_margin": 0.15177832200252714,
+    "passed": true
+  },
+  "two_loop_test": {
+    "all_stable": true,
+    "n_stable": 3,
+    "curvatures": [
+      240.26547418287691,
+      59.9936766931819,
+      239.8324872032731
+    ]
+  },
+  "perturbation_test": {
+    "all_persist": true,
+    "persistence_rates": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_displacements": [
+      3.508490016643023e-05,
+      0.000189749044074522,
+      9.285272551980195e-05
+    ]
+  },
+  "verification": {
+    "sep_passed": true,
+    "triple_well_passed": true,
+    "kato_passed": true,
+    "two_loop_passed": true,
+    "overall_passed": true
+  }
+}
