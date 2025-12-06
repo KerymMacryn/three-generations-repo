@@ -1,0 +1,2 @@
+run_id,params,alpha0_sample,alpha2_sample,alpha4_sample,alpha6_sample,minima_count_sample,alpha0_seeley,alpha2_seeley,alpha4_seeley,alpha6_seeley,minima_count_seeley
+toy_run_2025_12_04,"{""block_sizes"": [6, 6, 6], ""base_gaps"": [0.1, 1.0, 3.0], ""Lambda"": 50.0}",17.963575413181896,-0.000585016143185982,-6.312942395318588e-05,8.96470202556773e-09,1,15831852126.675312,184933.608469187,4.9711615921690955,3.5953241047541166e-05,1
